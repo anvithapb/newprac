@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <title>Login</title>
+  <link rel="stylesheet" type=" text/css" href="styles.css">
+  <script src="loginjs.js">  </script>
+</head>
+<body>
+     <div class="login">
+       <div class="loginsub">
+
+     <form id="formid" method="post" name="myform">
+       <label>  <b> Username:</b>  </label><br>
+         <input type="text" placeholder="Enter Username" name="uname" id="username" required>
+         <br><br>
+         <label>  <b> Password:    </b> </label><br>
+         <input type="password" placeholder="Enter Password" name="passwrd" id="pwd" required>
+         <br><br>
+         <button type="button" name="Login" id="submit" onclick="validate()">Login</button>
+         <button type="submit" value="Reset">Reset</button>
+         <br><br>
+     </form>
+     <div class="note">
+         Use <b id="l1">'educore'</b> as username and <b id="l2">educore#123</b> as password.
+     </div>
+   </div>
+     </div>
+
+ </body>
+</html>

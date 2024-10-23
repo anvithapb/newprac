@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+}
+.wrapper  {
+     background-image: url(images/t3.jpg);
+     background-size: cover;
+     height: 100vh;
+}
+
+.navbar .logo {
+  width: 100px;
+  height: 100px;
+  padding: 20px ;
+}
+
+.navbar {
+    position: fixed;
+    height:20px;
+    width: 100%;
+    background: grey;
+}
+
+.navbar ul  {
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+  color: white;
+}
+
+.navbar ul li a {
+  text-decoration:none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  background: white;
+}
+
+.center h1  {
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.wrapper .center  {
+	position: absolute;
+	left: 50%;
+	top: 55%;
+
+	transform: translate(-50%, -50%);
+  font-family: cursive;
+	user-select: none;
+}
+
+/* login page*/
+.loginsub {
+  background-image: url(images/log.png);
+  position:absolute;
+  text-align: center;
+  top: 40px;
+  left: 40px;
+  margin-left: 150px;
+  margin-top: 50px;
+  width: 700px;
+  height: 350px;
+  z-index: 2;
+  border: 5px double white;
+}
+
+.login {
+  background-image: url(images/log.png);
+  align-content: center;
+  width: 1100px;
+  height: 500px;
+  margin-left: 150px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: rgb(153,102,153);
+  position:absolute;
+  border: 5px double black;
+}
+
+label {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 20px;
+  font-weight:lighter;
+}
+
+input[type=text],input[type=password] {
+  width: 50%;
+  height: 30px;
+  align-content: left;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+button[type=button],button[type=submit] {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 10px 0;
+}
+
+button[type=button]:hover, button[type=submit]:hover {
+  background: linear-gradient(blue,red);
+}
+
+.note #l1, #l2{
+  font-style: italic;
+  font-size: auto;
+}
+
+/* about page*/
+
+.abtus{
+  text-align: left;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url(images/t2.jpg);
+  background-size: cover;
+  height: 100vh;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+#abt{
+  font-size: 30px;
+  color: black;
+}
+
+.p1, .p2, .p3, .p4{
+  font-size: 22px;
+  text-align: left;
+  color: white;
+}
+
+/* services page*/
+
+#ss, i{
+  font-size: 30px;
+  color: black;
+}
+
+.s1, .s2, .s3{
+  font-size: 22px;
+  text-align: left;
+  color: white;
+}
+
+.srvces{
+  text-align: left;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url(images/t2.jpg);
+  background-size: cover;
+  height: 100vh;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+/*faq page*/
+
+.fqs{
+  text-align: left;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url(images/t2.jpg);
+  background-size: cover;
+  height: 100vh;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+#fq{
+  font-size: 30px;
+  color: blue;
+}
